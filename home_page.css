@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    background-color: beige;
+}
+.container{
+    width: 100%;
+    height: 1300px;
+}
+.nav-bar{
+    
+    height: 150px;
+    display: flex;
+    justify-content: inherit;
+    background-color: beige;
+}
+
+.nav-bar img{
+    width: 20%;
+    height: fit-content;
+    align-self: center;
+    margin-left: 3%;
+    box-shadow: 3px 3px 10px rgb(236, 176, 103);
+}
+.nav-bar h2{
+    color:black;
+    height: 15%;
+    text-align: center;
+    margin-left: 5%;
+    align-self: center;
+    font-family: sans-serif;
+}
+.nav-bar h2 span{
+    color: rgb(236, 198, 61);
+    font-family: cursive;
+}
+.nav-bar ul{
+    border-radius: 7px;
+    display: inline;
+    padding-left: 0;
+    margin-left: 5%;
+    align-self: center;
+    box-shadow: inset 3px 3px 10px rgb(236, 176, 103);
+}
+.nav-bar ul li{
+    float:left;
+    list-style: none;
+}
+.nav-bar ul li a{
+  display:block;
+  color: rgb(18, 18, 18);
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(236, 198, 61) ;
+}
+.nav-bar li a:hover{
+    background-color: orangered;
+    transition: 0.75s;
+}
+.layout{
+    width: 98%;
+    height:70%;
+    background-color: beige;
+    padding: 10px;
+    margin: 0 auto;
+}
+.welcome{
+    width: 100%;
+    height: 60px;
+}
+.welcome h3{
+    color: black;
+    text-align: center;
+    align-self: center;
+    font-family: cursive;
+}
+.welcome h3 span{
+    color:  rgb(236, 198, 61);
+}
+.goal{
+    width: 47%;
+    height: 90%;
+    float: left;
+    box-shadow: 4px 3px 5px rgb(236, 176, 103);
+    margin-left: 1%;
+}
+.clients{
+    width: 47%;
+    height: 90%;
+    float: right;
+    box-shadow: -4px 3px 5px rgb(236, 176, 103);
+    margin-right: 1%;
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+}
+.goal p{
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+}
+.clients h4{
+    margin-left: 10px;
+    font-family: cursive;
+}
+.clients p{
+    font-family: cursive;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+.footer{
+    height: 17%;
+    display: flex;
+}
+.footer img{
+    width: 20%;
+    align-self: center;
+    margin-left: 3%;
+    box-shadow: 3px 3px 10px rgb(236, 176, 103);
+}
+.footer h2{
+    color:black;
+    height: 15%;
+    text-align: center;
+    margin-left: 3%;
+    align-self: center;
+    font-family: sans-serif;
+}
+.footer h2 span{
+    color: rgb(236, 198, 61);
+    font-family: cursive;
+}
+.contacts{
+    text-align: center;
+    margin-left: 5%;
+}
+.contacts p{
+    align-self: center;
+}
